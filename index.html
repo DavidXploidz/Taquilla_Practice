@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Taquilla Vip</title>
+</head>
+<body>
+    <header class="bg-primary">
+
+    </header>
+    <main class="bg-secondary d-flex">
+        <aside class="col-md-3 bg-info" style="height: 90vh;">
+            <input class="my-3" type="search" placeholder="Nombre, ciudad, etc.">
+            <div class="d-flex flex-column mb-3">
+                <h4>Ciudad</h4>
+                <select>
+                    <option value="#">--Elige una opcion--</option>
+                    <option value="durango">Durango</option>
+                    <option value="mazatlan">Mazatlan</option>
+                    <option value="torreon">Torreon</option>
+                </select>
+            </div>
+            <div class="d-flex flex-column mb-3">
+                <h4>Categorias</h4>
+                <div>
+                    <input type="checkbox" id="deportes">
+                    <label for="deportes">Deportes</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="conciertos">
+                    <label for="conciertos">Conciertos</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="antros">
+                    <label for="antros">Antros</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="familia">
+                    <label for="familia">Familia</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="arte">
+                    <label for="arte">Arte</label>
+                </div>
+                
+            </div>
+        </aside>
+        <section class="col-md-9 bg-light" style="height: 90vh; overflow-y: auto;">
+            <!-- Contenido generado -->
+            <div id="contenedor-eventos" class="row">
+                
+            </div>
+        </section>
+        
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
